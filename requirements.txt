@@ -1,0 +1,7 @@
+langchain
+langchain-community
+unstructured
+pypdf
+python-docx
+chromadb
+python-dotenv

@@ -1,0 +1,35 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+data/processed/*.json
+*.log
+
+# Test files (optional - remove if you want to push tests)
+src/test_*.py
+src/step*.py
+src/show_*.py
+src/download_samples.py
+
+# Documentation (optional - remove if you want to push these)
+DEMO_COMMANDS.txt
+SETUP_BEFORE_MEETING.txt
+TEST_RESULTS.md
+COMPLETE_TEST_REPORT.md

@@ -1,0 +1,14 @@
+
+# Clean old output
+cd C:\Users\Anurag\Desktop\genai-doc-repo
+Remove-Item data/processed/*.json -ErrorAction SilentlyContinue
+
+# Test run to make sure everything works
+cd src
+python pipeline.python pipeline.py
+cd ..
+
+# Verify it worked
+python src/final_verify.py
+
+# You're ready! ✓
