@@ -5,3 +5,7 @@ pypdf
 python-docx
 chromadb
 python-dotenv
+fastapi
+uvicorn[standard]
+python-multipart
+openai

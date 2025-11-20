@@ -22,7 +22,7 @@ def parse_pdf(file_path: Path) -> dict:
             pages.append({
                 'page_number': page_num,
                 'text': text
-            })
+            }) 
     
     return {
         'source_file': file_path.name,

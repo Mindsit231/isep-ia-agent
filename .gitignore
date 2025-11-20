@@ -21,6 +21,7 @@ Thumbs.db
 # Project specific
 data/processed/*.json
 *.log
+.env
 
 # Test files (optional - remove if you want to push tests)
 src/test_*.py
